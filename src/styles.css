@@ -1,4 +1,35 @@
 :root{
     --main-font-family: 'Nunito', sans-serif;
 --secondary-font-family: 'Roboto', sans-serif;
+--main-colour:#fff;
+
+}
+.hero{
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%), url(../images/overlay.png);
+background-size:cover;
+background-repeat: no-repeat;
+max-width: 100%;;
+
+}
+h1,p{
+    color: #fff;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    
+}
+h1{
+    font-size: 72px;
+}
+p{
+font-size: 24px;
+line-height: 35px;
+}
+h2{
+    color: #000;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-size: 28px;
+    font-weight: bold;
+
 }
