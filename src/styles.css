@@ -110,7 +110,7 @@ font-weight: bold;
  li{
      border-bottom: 1px dashed #67D5D2;
      background-color: #fff;
-     line-height: 40px;
+     line-height: 60px;
  }
  .method ul li{
      border-bottom: 0px;
@@ -120,6 +120,10 @@ font-weight: bold;
 color: #F8739A;
 font-weight: 900;
 line-height: 30px;
+font-size: 18px;
+ }
+ section.img img{
+width: 1280px;
  }
  hr{
      border-bottom: 2px dashed #67D5D2;
@@ -173,4 +177,21 @@ section.info{
 .favourite-recipes h5{
 font-size: 18px;
 }
+.method h5{
+    margin-top: 15px;
+}
+.recipes h4{
+border-bottom: 2px solid var(--main-colour);
+}
+li{
+     text-decoration: none;
+     text-align: left;
+     list-style: none;
+     line-height: 25px;
+     font-size: 16px;
+     font-weight: normal;
+ }
+ .method .step2{
+    margin-top: 2px; 
+ }
 }
