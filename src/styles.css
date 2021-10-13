@@ -1,17 +1,29 @@
 :root{
     --main-font-family: 'Nunito', sans-serif;
 --secondary-font-family: 'Roboto', sans-serif;
---main-colour:#fff;
-
+--secondary-colour:#fff;
+--main-colour:#272142;           
 }
+
 .hero{
 background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%), url(../images/overlay.png);
 background-size:cover;
 background-repeat: no-repeat;
 max-width: 100%;
 }
+.content-container{
+    padding: 60px 20px;
+}
+.content{
+    margin: 30px;
+}
+
+section.info{
+    padding-top: 100px;
+    text-align: left;
+}
 h1,p{
-    color: #fff;
+    color:var(--secondary-colour);
     text-align: center;
     font-family: var(--main-font-family);
     font-weight: bold;
@@ -20,17 +32,62 @@ h1,p{
 h1{
     font-size: 72px;
 }
-p{
+
+
+
+.hero p{
 font-size: 24px;
 line-height: 35px;
+color: var(--secondary-colour);
 }
-h2{
-    color: #000;
+h4{
+    color:var(--main-colour);
     text-align: center;
     font-family: var(--main-font-family);
     font-size: 28px;
     font-weight: bold;
 
+}
+.main-content{
+    margin-top: 60px;
+}
+.container h1,h2,h3,h4,h5,h6,p{
+    font-family: var(--main-font-family);
+    color: var(--main-colour);
+    font-weight: bold;
+}
+.container h1{
+    font-size: 72px;
+    line-height: 98px;
+}
+.container h2{
+    font-size: 64px;
+    line-height: 50px;
+    margin-bottom: 50px;
+} 
+.container h6 a{
+    color: var(--main-colour);
+    padding: 10px;
+    font-size: 16px;
+}
+.container h6 span{
+padding-right: 15px;
+font-weight: bold;
+font-size: 18px;
+}
+
+.content h3{
+font-size: 24px;
+line-height: 1.5;
+margin: 20px 0 0;
+font-weight: bold;
+}
+.container p{
+    font-size: 18px; 
+    font-weight: normal;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 @media (max-width:900px){
@@ -40,7 +97,29 @@ h2{
     p{
     font-size: 20px;
     }
-    h2{
+    h4{
         font-size: 22px;
     }
+    
+    .container h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    } 
+    
+    .container p{
+        font-size:16px;
+        color: var(--main-colour);
+        text-align: center;
+    }
+    .main-content{
+    margin-top: 10px;
+}
+    .content-container{
+    text-align: center;
+    padding: 0;
+}
+section.info{
+    padding: 0;
+    text-align: center;
+}
 }
