@@ -179,6 +179,7 @@ font-size: 18px;
 }
 .method h5{
     margin-top: 15px;
+    
 }
 .recipes h4{
 border-bottom: 2px solid var(--main-colour);
@@ -191,7 +192,5 @@ li{
      font-size: 16px;
      font-weight: normal;
  }
- .method .step2{
-    margin-top: 2px; 
- }
+
 }
