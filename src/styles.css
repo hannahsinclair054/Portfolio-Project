@@ -51,7 +51,7 @@ h4{
 .main-content{
     margin-top: 60px;
 }
-.container h1,h2,h3,h4,h5,h6,p{
+.container h1,h2,h3,h4,h5,h6,h7,p,li{
     font-family: var(--main-font-family);
     color: var(--main-colour);
     font-weight: bold;
@@ -99,6 +99,34 @@ font-weight: bold;
  .favourite-recipes p{
      font-size: 16px;
  }
+ li{
+     text-decoration: none;
+     text-align: left;
+     list-style: none;
+     line-height: 30px;
+     font-size: 18px;
+     font-weight: normal;
+ }
+ li{
+     border-bottom: 1px dashed #67D5D2;
+     background-color: #fff;
+     line-height: 40px;
+ }
+ .method ul li{
+     border-bottom: 0px;
+     line-height: 25px;
+ }
+ .method h6{
+color: #F8739A;
+font-weight: 900;
+line-height: 30px;
+ }
+ hr{
+     border-bottom: 2px dashed #67D5D2;
+     background-color: #fff;
+     margin: 0;
+ }
+
 
 @media (max-width:900px){
     h1{
