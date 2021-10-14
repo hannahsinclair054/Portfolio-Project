@@ -54,6 +54,23 @@ section.info{
     padding-top: 100px;
     text-align: left;
 }
+
+.contact-info{
+     margin-top: 80px;
+ }
+
+.main-content{
+    margin-top: 60px;
+}
+footer{
+    background-color:#F9F7FE;
+    padding: 20px 100px;
+}
+.container h1,h2,h3,h4,h5,h6,h7,p,li{
+    font-family: var(--main-font-family);
+    color: var(--main-colour);
+    font-weight: bold;
+}
 h1,p{
     color:var(--secondary-colour);
     text-align: center;
@@ -66,28 +83,6 @@ h1{
 }
 
 
-
-.hero p{
-font-size: 24px;
-line-height: 35px;
-color: var(--secondary-colour);
-}
-h4{
-    color:var(--main-colour);
-    text-align: center;
-    font-family: var(--main-font-family);
-    font-size: 28px;
-    font-weight: bold;
-
-}
-.main-content{
-    margin-top: 60px;
-}
-.container h1,h2,h3,h4,h5,h6,h7,p,li{
-    font-family: var(--main-font-family);
-    color: var(--main-colour);
-    font-weight: bold;
-}
 .container h1{
     font-size: 72px;
     line-height: 98px;
@@ -97,6 +92,27 @@ h4{
     line-height: 50px;
     margin-bottom: 50px;
 } 
+.favourite-recipes h3{
+    font-size: 36px;
+    text-align: center;
+}
+
+.content h3{
+font-size: 24px;
+line-height: 1.5;
+margin: 20px 0 0;
+font-weight: bold;
+}
+h4{
+    color:var(--main-colour);
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-size: 28px;
+    font-weight: bold;
+}
+.favourite-recipes h5{
+    font-size: 24px;
+}
 .container h6 a{
     color: var(--main-colour);
     padding: 10px;
@@ -107,12 +123,22 @@ padding-right: 15px;
 font-weight: bold;
 font-size: 18px;
 }
+.method h6{
+color: #F8739A;
+font-weight: 900;
+line-height: 30px;
+font-size: 18px;
+ }
+ .contact-info h6{
+     color:#662EED;
+     font-size: 18px;
+     font-weight: bold;
+ }
 
-.content h3{
+.hero p{
 font-size: 24px;
-line-height: 1.5;
-margin: 20px 0 0;
-font-weight: bold;
+line-height: 35px;
+color: var(--secondary-colour);
 }
 .container p{
     font-size: 18px; 
@@ -121,16 +147,17 @@ font-weight: bold;
     text-align: left;
     margin-bottom: 30px;
 }
-.favourite-recipes h3{
-    font-size: 36px;
-    text-align: center;
-}
-.favourite-recipes h5{
-    font-size: 24px;
-}
  .favourite-recipes p{
      font-size: 16px;
  }
+footer p{
+   font-family: var(--secondary-font-family); 
+   font-size: 16px;
+   font-weight: normal;
+   color: var(--main-colour);
+   line-height:19px;
+}
+
  li{
      text-decoration: none;
      text-align: left;
@@ -148,47 +175,29 @@ font-weight: bold;
      border-bottom: 0px;
      line-height: 25px;
  }
- .method h6{
-color: #F8739A;
-font-weight: 900;
-line-height: 30px;
-font-size: 18px;
- }
+ 
  section.img img{
 width: 1280px;
  }
+
  hr{
      border-bottom: 2px dashed #67D5D2;
      background-color: #fff;
      margin: 0;
  }
- .contact-info{
-     margin-top: 80px;
- }
- .contact-info h6{
-     color:#662EED;
-     font-size: 18px;
-     font-weight: bold;
- }
-.contact-info a{
-    color: var(--main-colour);
-    text-decoration: none;
-}
-.contact-info .text{
+ 
+ .contact-info .text{
     font-size: 24px;
     font-weight: normal;
     line-height: 30px;
 }
-footer{
-    background-color:#F9F7FE;
-    padding: 20px 100px;
+
+.contact-info a{
+    color: var(--main-colour);
+    text-decoration: none;
 }
-footer p{
-   font-family: var(--secondary-font-family); 
-   font-size: 16px;
-   font-weight: normal;
-   color: var(--main-colour);
-   line-height:19px;
+.contact-info a:hover{
+    color: #703BEE;
 }
 footer a{
     color: var(--main-colour);
@@ -197,6 +206,7 @@ footer a{
 footer a:hover{
     color: #703BEE;
 }
+
 
 @media (max-width:900px){
     h1{
@@ -219,63 +229,64 @@ footer a:hover{
         color: var(--main-colour);
         text-align: center;
     }
+
     .main-content{
     margin-top: 5px;
-}
-.container h1{
-margin: 0;
-line-height:50px;
-}
-    .content-container{
-    text-align: center;
-    padding: 0;
-}
-.container h1{
-    font-size: 50px;
-}
-section.info{
-    padding: 0;
-    text-align: center;
-}
-.favourite-recipes h3{
-    font-size: 30px;
-}
-.favourite-recipes h5{
-font-size: 18px;
-}
-.method h5{
-    margin-top: 15px;
+    }
+    .container h1{
+    margin: 0;
+    line-height:50px;
+    }
+        .content-container{
+        text-align: center;
+        padding: 0;
+    }
+    .container h1{
+        font-size: 50px;
+    }
+    section.info{
+        padding: 0;
+        text-align: center;
+    }
+    .favourite-recipes h3{
+        font-size: 30px;
+    }
+    .favourite-recipes h5{
+    font-size: 18px;
+    }
+    .method h5{
+        margin-top: 15px;
 
-}
-.recipes h4{
-border-bottom: 2px solid var(--main-colour);
-}
-li{
-     text-decoration: none;
-     text-align: left;
-     list-style: none;
-     line-height: 25px;
-     font-size: 16px;
-     font-weight: normal;
+    }
+    .recipes h4{
+    border-bottom: 2px solid var(--main-colour);
+    }
+    li{
+        text-decoration: none;
+        text-align: left;
+        list-style: none;
+        line-height: 25px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .contact-info{
+        margin-top: 20px;
+    }
+    .contact-info .text{
+        font-size: 20px;
+    }
+    .contact-info h6{
+        margin: 0;
+    }
+    .contact-info p{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    footer{
+        padding: 20px 30px;
+        padding-top: 20px;
+    }
+    footer a{
+        padding-left: 10px;
+    }
  }
- .contact-info{
-     margin-top: 20px;
- }
- .contact-info .text{
-     font-size: 20px;
- }
- .contact-info h6{
-     margin: 0;
- }
- .contact-info p{
-     margin: 0;
-     margin-bottom: 20px;
- }
- footer{
-     padding: 20px 30px;
-     padding-top: 20px;
- }
- footer a{
-    padding-left: 10px;
-}
-}
