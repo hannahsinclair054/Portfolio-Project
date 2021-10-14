@@ -179,6 +179,22 @@ width: 1280px;
     font-weight: normal;
     line-height: 30px;
 }
+footer{
+    background-color:#F9F7FE;
+    padding: 20px 100px;
+}
+footer p{
+   font-family: var(--secondary-font-family); 
+   font-size: 16px;
+   font-weight: normal;
+   color: var(--main-colour);
+   line-height:19px;
+}
+footer a{
+    color: var(--main-colour);
+    padding-left: 20px;
+}
+
 
 @media (max-width:900px){
     h1{
@@ -253,4 +269,11 @@ li{
      margin: 0;
      margin-bottom: 20px;
  }
+ footer{
+     padding: 20px 30px;
+     padding-top: 20px;
+ }
+ footer a{
+    padding-left: 10px;
+}
 }
