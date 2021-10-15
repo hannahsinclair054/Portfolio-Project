@@ -146,9 +146,11 @@ color: var(--secondary-colour);
     line-height: 30px;
     text-align: left;
     margin-bottom: 30px;
+    color: var(--main-colour);
 }
  .favourite-recipes p{
      font-size: 16px;
+     color: var(--main-colour);
  }
 footer p{
    font-family: var(--secondary-font-family); 
@@ -203,6 +205,10 @@ footer a{
     color: var(--main-colour);
     padding-left: 20px;
 }
+footer .github-link{
+    padding: 0px;
+}
+
 footer a:hover{
     color: #703BEE;
 }
